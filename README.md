@@ -30,5 +30,7 @@ using a proxy but that didn't work either.<br><br>
 
  However, it can be tested using Postman to perform all CRUD operations on the actual database.
  The Front end is made up using Angular,HTML,CSS,Bootstrap and contains mock up data for the purpose of demonstration.<br><br>
+ 
+ Both zipped and unzipped versions have been included in this repository.
 
 
