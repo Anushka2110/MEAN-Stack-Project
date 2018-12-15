@@ -1,0 +1,38 @@
+/*#wrapper{
+
+    border:2px solid black;
+    margin-left: 300px;
+    margin-right: 300px;
+    justify-content: center;
+    align-items: center;
+    height:500px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}*/
+.fields{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+
+}
+
+.input{
+    padding: 5px;
+    width: 500px;
+}
+#reservebutton{
+    padding:10px;
+    margin:10px;
+    background-color: cadetblue;
+    color: white;
+    width: 120px;
+}
+label{
+    width:150px;
+}
+select,input{
+    width: 200px; height:30px;
+}
+

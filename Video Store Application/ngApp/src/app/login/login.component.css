@@ -1,0 +1,37 @@
+#wrapper{
+
+    border:2px solid black;
+    margin-left: 400px;
+    margin-right: 400px;
+    justify-content: center;
+    align-items: center;
+    height:400px;
+    padding-top: 90px;
+    
+}
+.fields{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 5px;
+    
+
+}
+.input{
+    padding: 5px;
+}
+#loginbutton{
+    padding-top:5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width:150px;
+    margin-left: 150px;
+
+    background-color: cadetblue;
+    color: white;
+}
+label{
+    width:150px;
+}

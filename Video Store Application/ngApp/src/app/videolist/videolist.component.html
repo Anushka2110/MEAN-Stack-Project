@@ -1,0 +1,44 @@
+<!--<p align="right">Administrator<button type="button" class="btn btn-primary" routerLink="">Logout</button></p>
+<br>
+<button type="button" class="btn btn-primary" routerLink="">Videos</button>
+<button type="button" class="btn btn-primary" routerLink="">Customers</button>
+<br>
+-->
+<p align="right"><button type="button" class="btn btn-primary" routerLink="/insert" routerLinkActive="active">Add New Video</button></p>
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Item TItle</th>
+      <th scope="col">Running Time</th>
+      <th scope="col">Item Genre</th>
+      <th scope="col">Rating</th>
+      <th scope="col">Director</th>
+      <th scope="col">Status</th>
+      <th scope="col">Update</th>
+      <th scope="col">Delete</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr (click)="onSelect(video)" *ngFor = "let video of videos">
+      <th scope="row">{{video.id}}</th>
+      <td>{{video.title}}</td>
+      <td>{{video.runtime}}</td>
+      <td>{{video.genre}}</td>
+      <td>{{video.rating}}</td>
+      <td>{{video.director}}</td>
+      <td>{{video.status}}</td>
+      <td><button type="button" class="btn btn-primary">Update</button>
+      </td>
+      <td><button type="button" class="btn btn-primary">Delete</button>
+      </td>
+    </tr>
+    
+   
+  </tbody>
+</table>
+
+
+

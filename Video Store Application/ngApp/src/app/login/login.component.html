@@ -1,0 +1,15 @@
+<br>
+<h1 align="center">Login</h1>
+<div id="wrapper">
+  <div class="fields">
+    <label>Username:</label><input type="text" name="username" placeholder="username" #u1> 
+  </div>
+  <div class="fields">
+    <label>Password:</label><input type="password" name="password" placeholder="password" #p2>
+  </div>
+<div class="fields">
+    <button (click)="check(u1.value, p2.value)" id="loginbutton"><a routerLink="/shell" routerLinkActive="active">Login</a></button>
+</div>
+<span align="center">{{ msg }}</span>
+</div>
+

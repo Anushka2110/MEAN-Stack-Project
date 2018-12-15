@@ -1,0 +1,41 @@
+
+<!--<button type="button" class="btn btn-primary" routerLink="/videolist" width="50%">Videos</button>
+<button type="button" class="btn btn-primary" routerLink="/customer" width="50%">Customers</button>
+<br>-->
+
+
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">ID</th>
+      <th scope="col">Item TItle</th>
+      <th scope="col">Running Time</th>
+      <th scope="col">Item Genre</th>
+      <th scope="col">Rating</th>
+      <th scope="col">Director</th>
+      <th scope="col">Status</th>
+      <th scope="col"></th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr (click)="onSelect(video)" *ngFor = "let video of videos">
+      <th scope="row">{{video.id}}</th>
+      <td>{{video.title}}</td>
+      <td>{{video.runtime}}</td>
+      <td>{{video.genre}}</td>
+      <td>{{video.rating}}</td>
+      <td>{{video.director}}</td>
+      <td>{{video.status}}</td>
+      <td><button type="button" class="btn btn-primary">Reserve</button>
+      </td>
+     
+    </tr>
+    
+   
+  </tbody>
+</table>
+
+
+

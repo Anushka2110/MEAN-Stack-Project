@@ -1,0 +1,11 @@
+<div class="row">
+    <div class="col-sm-9">
+        <app-home (SelectVideo)="onSelectVideo($event)" [videos]="videos"></app-home>
+    </div>
+    <div class="col-sm-3">
+        <app-reserve *ngIf="selectedVideo" [video]="selectedVideo"></app-reserve>
+    </div>
+</div>
+
+
+
